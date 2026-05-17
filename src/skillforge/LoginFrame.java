@@ -221,7 +221,7 @@ if (studentRadioButton.isSelected()) {
     }
         if (role.equals("admin")) {
         
-            if (email.equals("y@a.c") && password.equals("123")) {
+            if (email.equals("admin@skillforge.demo") && password.equals("admin123")) {
                 JOptionPane.showMessageDialog(this, "Login successful!");
                 this.dispose();
                 new AdminDashboard(this.um,this.cm,this.im,this.sm).setVisible(true);
@@ -286,5 +286,6 @@ if (studentRadioButton.isSelected()) {
     private javax.swing.JRadioButton studentRadioButton;
     // End of variables declaration//GEN-END:variables
 }
+
 
 

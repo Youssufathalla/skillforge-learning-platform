@@ -1,22 +1,169 @@
 [
   {
     "courseId": 1,
-    "title": "Introduction to Java Programming",
-    "description": "A beginner-friendly course covering Java basics, object-oriented programming, and practical exercises.",
+    "title": "Java Object-Oriented Programming",
+    "description": "A practical course covering classes, objects, inheritance, encapsulation, and GUI-based Java development.",
+    "approval": "APPROVED",
+    "instructorId": 884440,
+    "enrolledStudents": [105733, 105734],
+    "lessons": [
+      {
+        "lessonId": 0,
+        "title": "Classes and Objects",
+        "content": "Introduction to object-oriented programming using Java classes, objects, attributes, and methods.",
+        "completionPercentage": 100,
+        "quizAvg": 80.5,
+        "quiz": [
+          {
+            "question": "What is an object in Java?",
+            "options": ["An instance of a class", "A package", "A compiler", "A loop"],
+            "correct": 0
+          },
+          {
+            "question": "Which keyword is used to create an object?",
+            "options": ["new", "class", "void", "extends"],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "lessonId": 1,
+        "title": "Inheritance and Polymorphism",
+        "content": "Using inheritance to reuse code and polymorphism to handle different object types through common interfaces.",
+        "completionPercentage": 90,
+        "quizAvg": 92,
+        "quiz": [
+          {
+            "question": "Which keyword is used for inheritance in Java?",
+            "options": ["extends", "inherits", "superclass", "implements"],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "lessonId": 2,
+        "title": "Java Swing GUI Design",
+        "content": "Building desktop interfaces using JFrame, buttons, tables, text fields, and event handling.",
+        "completionPercentage": 75,
+        "quizAvg": 88,
+        "quiz": [
+          {
+            "question": "Which Java library is commonly used for desktop GUI components?",
+            "options": ["Swing", "NumPy", "React", "Flask"],
+            "correct": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 2,
+    "title": "Cybersecurity Fundamentals",
+    "description": "An introductory course covering security principles, access control, secure authentication, and basic incident response.",
     "approval": "APPROVED",
     "instructorId": 884440,
     "enrolledStudents": [105733],
     "lessons": [
       {
         "lessonId": 0,
-        "title": "Java OOP Fundamentals",
-        "content": "This lesson introduces classes, objects, methods, and encapsulation.",
+        "title": "Access Control Basics",
+        "content": "Understanding authentication, authorization, user permissions, and role-based access.",
+        "completionPercentage": 100,
+        "quizAvg": 90,
+        "quiz": [
+          {
+            "question": "What does authentication verify?",
+            "options": ["User identity", "File size", "CPU usage", "Network speed"],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "lessonId": 1,
+        "title": "Security Operations",
+        "content": "Introduction to monitoring, incident response, risk management, and system hardening.",
+        "completionPercentage": 80,
+        "quizAvg": 86,
+        "quiz": [
+          {
+            "question": "What is system hardening?",
+            "options": ["Reducing attack surface", "Increasing screen brightness", "Deleting all logs", "Disabling backups"],
+            "correct": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 3,
+    "title": "Cloud and IoT Integration",
+    "description": "A course focused on connecting IoT devices to cloud services using messaging protocols, secure communication, and data storage.",
+    "approval": "APPROVED",
+    "instructorId": 884441,
+    "enrolledStudents": [105733, 105734],
+    "lessons": [
+      {
+        "lessonId": 0,
+        "title": "MQTT Communication",
+        "content": "Understanding publish-subscribe messaging and how IoT devices send telemetry data to cloud platforms.",
+        "completionPercentage": 65,
+        "quizAvg": 79.5,
+        "quiz": [
+          {
+            "question": "Which communication model does MQTT use?",
+            "options": ["Publish-subscribe", "Peer-to-peer only", "Batch processing", "Local-only storage"],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "lessonId": 1,
+        "title": "Cloud Data Storage",
+        "content": "Storing IoT data in cloud storage services and preparing it for monitoring and analysis.",
+        "completionPercentage": 40,
+        "quizAvg": 0,
+        "quiz": [
+          {
+            "question": "Why is cloud storage useful for IoT systems?",
+            "options": ["Remote access and scalability", "Only local access", "It removes networking", "It prevents all bugs"],
+            "correct": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "courseId": 4,
+    "title": "Data Structures in Java",
+    "description": "A pending course proposal covering arrays, linked lists, stacks, queues, trees, and practical algorithmic thinking.",
+    "approval": "PENDING",
+    "instructorId": 884440,
+    "enrolledStudents": [],
+    "lessons": [
+      {
+        "lessonId": 0,
+        "title": "Arrays and Lists",
+        "content": "Introduction to storing, accessing, and manipulating ordered data collections.",
         "completionPercentage": 0,
         "quizAvg": 0,
         "quiz": [
           {
-            "question": "Which concept allows grouping data and behavior inside a class?",
-            "options": ["Encapsulation", "Compilation", "Iteration", "Indexing"],
+            "question": "Which data structure stores elements in indexed order?",
+            "options": ["Array", "Firewall", "Thread", "Compiler"],
+            "correct": 0
+          }
+        ]
+      },
+      {
+        "lessonId": 1,
+        "title": "Stacks and Queues",
+        "content": "Understanding LIFO and FIFO data structures with practical examples.",
+        "completionPercentage": 0,
+        "quizAvg": 0,
+        "quiz": [
+          {
+            "question": "Which principle does a stack follow?",
+            "options": ["LIFO", "FIFO", "HTTP", "JSON"],
             "correct": 0
           }
         ]
