@@ -1,4 +1,3 @@
-@'
 # SkillForge Learning Platform
 
 SkillForge is a Java Swing learning management platform built as a desktop application using object-oriented programming principles. It simulates a complete learning environment where students, instructors, and administrators interact through role-based dashboards, course workflows, quizzes, progress tracking, certificates, and analytics.
@@ -251,4 +250,3 @@ docs/uml-design/source/
 ## Author
 
 Youssuf Hatem Fathalla
-'@ | Set-Content README.md
