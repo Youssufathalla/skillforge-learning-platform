@@ -1,0 +1,38 @@
+[{
+        "quizCompleted": {
+            "1": {
+                "0": true
+            }
+        },
+        "certificates": [{
+                "studentId": 105733,
+                "certificateId": "95ff71bb-03fc-4859-99c9-f628d0991f51",
+                "issueDate": "2025-11-24",
+                "message": "Congratulations! You have successfully completed the course.",
+                "courseId": 1
+            }],
+        "lessonCompleted": {
+            "1": {
+                "0": true
+            }
+        },
+        "enrolledCourses": [1],
+        "quizScores": {
+            "1": {
+                "0": 0
+            }
+        },
+        "progress": 1,
+        "type": "student",
+        "userId": 105733,
+        "email": "s@g.c",
+        "passwordHash": "a7ef248bff19c7ee8af29bc2d4b76d57829fc844e83a6b5e59a34cacdcb753a4",
+        "username": "s@g.c"
+    }, {
+        "createdCourses": [1],
+        "type": "instructor",
+        "userId": 884440,
+        "email": "i@g.c",
+        "passwordHash": "8040c40b96b4c8e1cc725a2d758ced02523b0aaf57c4de9efc1b6c4d8f06d5bf",
+        "username": "i@g.c"
+    }]

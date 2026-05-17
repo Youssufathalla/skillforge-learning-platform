@@ -1,0 +1,7 @@
+# Java / NetBeans generated files
+build/
+dist/
+nbproject/private/
+*.class
+*.jar
+.DS_Store
