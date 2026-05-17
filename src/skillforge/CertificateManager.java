@@ -55,7 +55,6 @@ public class CertificateManager implements Manager {
 
     public Certificate issueCertificateIfEligible(Student s, Course c) {
         if (s.hasCertificateForCourse(c.getCourseId())) {
-            System.out.println("1");
             return null;
         }
         if (!isCourseCompleted(s, c)) {
@@ -148,5 +147,6 @@ public class CertificateManager implements Manager {
 
     
 }
+
 
 

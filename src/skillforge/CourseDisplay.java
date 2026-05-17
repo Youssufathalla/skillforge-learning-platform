@@ -35,6 +35,7 @@ public class CourseDisplay extends javax.swing.JFrame {
         this.c = (Course) cm.search(c.getCourseId());
 
         initComponents();
+        setTitle("SkillForge - Course Details");
         loadTable();
     }
 
@@ -257,4 +258,5 @@ public class CourseDisplay extends javax.swing.JFrame {
     private javax.swing.JButton quizBtn;
     // End of variables declaration//GEN-END:variables
 }
+
 

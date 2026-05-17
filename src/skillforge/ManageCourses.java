@@ -16,6 +16,7 @@ public class ManageCourses extends javax.swing.JFrame {
 
     public ManageCourses(StudentManager sm, Instructor ins, InstructorManager im, CourseManager cm, InstructorDashboard parent) {
         initComponents();
+        setTitle("SkillForge - Manage Courses");
         this.im = im;
         this.parent = parent;
         this.cm = cm;
@@ -668,4 +669,5 @@ public class ManageCourses extends javax.swing.JFrame {
     private javax.swing.JTextArea title;
     // End of variables declaration//GEN-END:variables
 }
+
 

@@ -28,6 +28,7 @@ public class BrowseCourse extends javax.swing.JFrame {
         this.um = um;
            JsonDatabase.loadCourses(cm);
         initComponents();
+        setTitle("SkillForge - Browse Courses");
         loadTable();
     }
 
@@ -284,4 +285,5 @@ for (Course c : list) {
     private javax.swing.JTextField searchTextField;
     // End of variables declaration//GEN-END:variables
 }
+
 

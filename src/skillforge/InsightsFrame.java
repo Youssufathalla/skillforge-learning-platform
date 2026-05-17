@@ -34,6 +34,7 @@ public class InsightsFrame extends javax.swing.JFrame {
  
     public InsightsFrame(ManageCourses parent, CourseManager cm, InstructorManager im, StudentManager sm, Course c) {
         initComponents();
+        setTitle("SkillForge - Analytics");
         this.parent = parent;
         this.um = Main.userManager;
         this.c = c;
@@ -280,4 +281,5 @@ public class InsightsFrame extends javax.swing.JFrame {
     private javax.swing.JTable progressTable;
     // End of variables declaration//GEN-END:variables
 }
+
 

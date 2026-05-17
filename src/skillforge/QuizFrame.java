@@ -36,6 +36,7 @@ public class QuizFrame extends javax.swing.JFrame {
         this.lesson = lesson;
 
         initComponents();
+        setTitle("SkillForge - Quiz");
         loadQuestion();
     }
 
@@ -282,4 +283,5 @@ public class QuizFrame extends javax.swing.JFrame {
     private javax.swing.JLabel questionLabel;
     // End of variables declaration//GEN-END:variables
 }
+
 

@@ -1,1 +1,26 @@
-[{"approval":"APPROVED","description":"1","enrolledStudents":[105733,426738],"title":"1","courseId":1,"instructorId":884440,"lessons":[{"quiz":[{"question":"1","correct":0,"options":["1","2","3","4"]}],"completionPercentage":0,"lessonId":0,"quizAvg":0,"title":"title","content":"content"}]},{"approval":"PENDING","description":"linear algebra","enrolledStudents":[],"title":"maths","courseId":123,"instructorId":160128,"lessons":[]}]
+[
+  {
+    "courseId": 1,
+    "title": "Introduction to Java Programming",
+    "description": "A beginner-friendly course covering Java basics, object-oriented programming, and practical exercises.",
+    "approval": "APPROVED",
+    "instructorId": 884440,
+    "enrolledStudents": [105733],
+    "lessons": [
+      {
+        "lessonId": 0,
+        "title": "Java OOP Fundamentals",
+        "content": "This lesson introduces classes, objects, methods, and encapsulation.",
+        "completionPercentage": 0,
+        "quizAvg": 0,
+        "quiz": [
+          {
+            "question": "Which concept allows grouping data and behavior inside a class?",
+            "options": ["Encapsulation", "Compilation", "Iteration", "Indexing"],
+            "correct": 0
+          }
+        ]
+      }
+    ]
+  }
+]

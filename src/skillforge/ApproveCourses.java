@@ -28,6 +28,7 @@ public class ApproveCourses extends javax.swing.JFrame {
         this.um = um;
         JsonDatabase.loadCourses(cm);
         initComponents();
+        setTitle("SkillForge - Course Approval");
         loadTable();
     }
 
@@ -341,4 +342,5 @@ this.dispose();
     private javax.swing.JTextField searchTextField;
     // End of variables declaration//GEN-END:variables
 }
+
 

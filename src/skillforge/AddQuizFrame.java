@@ -27,6 +27,7 @@ public class AddQuizFrame extends javax.swing.JFrame {
             StudentManager sm, Course c, Lesson L, ManageCourses parent) {
 
         initComponents();
+        setTitle("SkillForge - Add Quiz");
         this.lesson = L;
         this.course = c;
         this.cm = cm;
@@ -311,4 +312,5 @@ public class AddQuizFrame extends javax.swing.JFrame {
     private javax.swing.JButton saveQuizButton;
     // End of variables declaration//GEN-END:variables
 }
+
 

@@ -22,6 +22,7 @@ public class CreateCourse extends javax.swing.JFrame {
 
     public CreateCourse(Instructor ins, InstructorManager sms, CourseManager cm, InstructorDashboard parent) {
         initComponents();
+        setTitle("SkillForge - Create Course");
         this.sms = sms;
         this.parent = parent;
         this.cm=cm;
@@ -271,4 +272,5 @@ public class CreateCourse extends javax.swing.JFrame {
     // End of variables declaration//GEN-END:variables
 }
 //
+
 

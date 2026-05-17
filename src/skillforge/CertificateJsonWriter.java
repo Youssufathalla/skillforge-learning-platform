@@ -22,10 +22,10 @@ public class CertificateJsonWriter {
         // Save to file
         try (FileWriter writer = new FileWriter("certificate_" + certificateId + ".json")) {
             writer.write(json);
-            System.out.println("JSON certificate created successfully!");
-        } catch (IOException e) {
+            } catch (IOException e) {
             e.printStackTrace();
         }
     }
 }
+
 

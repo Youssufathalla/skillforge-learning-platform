@@ -37,6 +37,7 @@ public class CertificateFrame extends javax.swing.JFrame {
         JsonDatabase.loadUsers(sm, im);
            JsonDatabase.loadCourses(cm);
         initComponents();
+        setTitle("SkillForge - Certificate");
         loadTable();
         
     }
@@ -348,4 +349,5 @@ JOptionPane.showMessageDialog(this, sb.toString());
     private javax.swing.JButton view;
     // End of variables declaration//GEN-END:variables
 }
+
 

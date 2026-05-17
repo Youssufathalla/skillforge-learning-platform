@@ -23,6 +23,7 @@ public class LoginFrame extends javax.swing.JFrame {
     JsonDatabase.loadCourses(cm);
     JsonDatabase.loadAdmins(Main.am);
         initComponents();
+        setTitle("SkillForge - Login");
     buttonGroup1.clearSelection();
 }
 
@@ -285,4 +286,5 @@ if (studentRadioButton.isSelected()) {
     private javax.swing.JRadioButton studentRadioButton;
     // End of variables declaration//GEN-END:variables
 }
+
 

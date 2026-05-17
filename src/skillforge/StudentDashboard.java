@@ -21,6 +21,7 @@ public class StudentDashboard extends javax.swing.JFrame {
 
     public StudentDashboard(UserManager um, CourseManager cm, InstructorManager im, StudentManager sm, Student s) {
         initComponents();
+        setTitle("SkillForge - Student Dashboard");
         this.s = s;
         this.im = im;
         this.cm = cm;
@@ -199,4 +200,5 @@ public class StudentDashboard extends javax.swing.JFrame {
     private javax.swing.JTextField userIdTextField;
     // End of variables declaration//GEN-END:variables
 }
+
 

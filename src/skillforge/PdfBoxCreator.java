@@ -49,11 +49,10 @@ public class PdfBoxCreator {
             }
 
             document.save(new File("certificate_" + certificateId + ".pdf"));
-            System.out.println("PDF certificate created successfully!");
-
-        } catch (IOException e) {
+            } catch (IOException e) {
             e.printStackTrace();
         }
     }
 }
+
 

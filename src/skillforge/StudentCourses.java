@@ -36,6 +36,7 @@ public class StudentCourses extends javax.swing.JFrame {
         this.s = (Student) sm.search(s.getUserId());
 
         initComponents();
+        setTitle("SkillForge - My Courses");
         loadTable();
     }
 
@@ -232,4 +233,5 @@ public class StudentCourses extends javax.swing.JFrame {
     private javax.swing.JTable studentCoursesTable;
     // End of variables declaration//GEN-END:variables
 }
+
 

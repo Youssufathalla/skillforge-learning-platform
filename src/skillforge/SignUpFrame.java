@@ -27,6 +27,7 @@ public class SignUpFrame extends javax.swing.JFrame {
     this.sm=sm;
     this.um=um;
         initComponents();
+        setTitle("SkillForge - Sign Up");
 
     
     buttonGroup1.clearSelection();
@@ -325,4 +326,5 @@ public class SignUpFrame extends javax.swing.JFrame {
     private javax.swing.JTextArea usernameText;
     // End of variables declaration//GEN-END:variables
 }
+
 
